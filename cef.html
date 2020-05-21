@@ -1,0 +1,27 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calcular</title>
+    <link rel="stylesheet" href="cef.css">
+    <link rel="shortcut icon" href="2969logotipo22.ico">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Ubuntu&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="formulario">
+      <h1> CALCULAR </h1>
+      <!-- Formulário para que o usuário possa enviar seu email e sua senha (usar post pois é mais seguro para o envio de senhas). -->
+      <div> <!-- A página de processamento será a que enviará os dados em questão para o banco de dados -->
+        <input type="number" id="distanciaRef" placeholder="Distância Led Referência" maxlength="20">
+        <input type="number" id="potenciaRef" placeholder="Potencia do led de Referência" maxlength="32">
+        <input type="number" id="brilhoCalc" placeholder="Brilho do led a calcular" maxlength="32">
+        <input type="submit" value="CALCULAR" id="calcular"></input>
+        <p id="resposta"></p>
+      </div>
+  </div>
+
+  <script type="text/javascript" src="calc.js"></script>
+  </body>
+</html>
