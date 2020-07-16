@@ -1,3 +1,5 @@
+
+ 
 <!DOCTYPE>
 <html lang="en" dir="ltr">
   <head>
@@ -6,6 +8,7 @@
     <link rel="icon" href="imgs/icone.ico">
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Cefeidas</title>
   </head>
   <body>
@@ -28,29 +31,70 @@
        
     </nav>
   </header>
-    <h2>Bem Vindo!</h2>
 
-
-
-    <section id="sobre">
-      <img src="imgs/estudante.jpg" alt="Pessoa digitando num computador">
-      <h3> UM POUCO SOBRE </h3>
-      <p>Descrição do projeto talvez?</p>
-      <p><a href="sobre.html" class="links" id="especial">Leia mais</a>
-      <div id="help">
+    <section>
+      <h2 class="tsecao"> O QUE É? </h2>
+      <p class="psecao">Neste trabalho apresentamos um dispositivo utilizando a plataforma Arduíno para
+      construir um modelo didático a ser utilizado em sala de aula de forma a simular o método de
+      medida de distâncias estelares por paralaxe e variáveis cefeídas.</p>
+    </section>
+    <section>
+      <div id="pessoas">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators lista">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+        </ol>
+        <div class="carousel-inner oslide">
+          <div class="carousel-item active">
+            <h2 class="tcar"> PROJETO & PROCESSO </h2>
+            <h3 class="subcar"> Henrietta Leavitt </h3>
+            <img src="imgs/henrietta.gif" class="imgSobre">
+             <div class="cc">
+                <p class="pc"> Henrietta Swan Leavitt (1986 - 1921) graduou em 1892. Após sua
+                  graduação, se tornou assistente voluntária no Observatório de Harvard em
+                  1895. Já logo depois, em 1902 Henrietta é contratada por Edward C. Pickering.
+                  Sua função era de calculadora, ela analisava placas fotográficas de estrelas e
+                  mensurava o brilho de cada uma. </p>
+                
+              </div>
+          </div>
+          <div class="carousel-item">
+            <h2 class="tcar"> PROJETO & PROCESSO </h2>
+            <h3 class="subcar"> Método de Medição </h3>
+            <img src="imgs/henrietta.gif" class="imgSobre">
+             <div class="cc">
+                <p class="pc"> Henrietta Swan Leavitt (1986 - 1921) graduou em 1892. Após sua
+                  graduação, se tornou assistente voluntária no Observatório de Harvard em
+                  1895. Já logo depois, em 1902 Henrietta é contratada por Edward C. Pickering.
+                  Sua função era de calculadora, ela analisava placas fotográficas de estrelas e
+                  mensurava o brilho de cada uma. </p>
+                
+              </div>
+          </div>
+         
+          
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
+      </div>    
 
+
+    </div>
     </section>
 
-
-    <section class="post">
-    <img src="imgs/minijogo1.jpg" alt="ilustração de um post">
-
-    <h3><a href="atoms.html" class="tpost"> +henrieta? </a>
-    </h3>
-    <p> blablabla</p>
-
-    </section>
 
 
     
@@ -58,10 +102,14 @@
     <p>©Cefeidas: orgulhosamente desenvolvido em 2020</p>
     
   </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="index.js"></script>
-
+   
 
 
 
   </body>
 </html>
+
