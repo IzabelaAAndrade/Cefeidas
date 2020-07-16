@@ -10,6 +10,20 @@ body {
   background-color: #f3f3f3;
 }
 
+.tsecao{
+  font-size: 2em;
+  margin: 5% 0% 5% 0%;
+
+  font-family: 'Quicksand', sans-serif;
+
+  text-align: center;
+}
+.psecao{
+  width: 70%;
+  margin: 0% 15% 5% 15%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
 .textoImgs {
 
   position: absolute;
@@ -59,12 +73,6 @@ nav a {
 
 }
 
-h2 {
-  text-align: center;
-  font-size: 4em;
-  font-family: 'Quicksand', sans-serif;
-  margin-top: 10%;
-}
 .post h3, .post p {
   font-family: 'Open Sans', sans-serif;
   padding-left: 50%;
@@ -193,6 +201,66 @@ footer img {
   position: relative;
 }
 
+.carousel {
+  width: 100%;
+  height: 60%;
+
+}
+.imgcarousel {
+  width: 60%;
+  height: 100vh;
+}
+.imgSobre{
+
+  width: 20vh;
+  height: 20vh;
+  float: left;
+  margin: 0% 5% 5% 20%;
+  border-radius: 5%;
+  
+}
+.
+
+.lista {
+  padding-top: 60vh;
+}
+.aparecer{
+  visibility: hidden;
+  position: absolute;
+}
+.oslide{
+  background-color: #141c28;
+  width: 100%;
+  padding: 2%;
+}
+.slide{
+  padding: 2%;
+
+}
+.tcar{
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  margin: 5% 0% 1% 0%;
+}
+.cc {
+  width: 70%;
+  margin: 0% auto 2% auto;
+}
+.pc{
+
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 0.8em;
+  padding: 3%;
+}
+.subcar{
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+}
 /* Ajustes de Responsividade */
 
 
